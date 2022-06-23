@@ -1,0 +1,91 @@
+        body{
+            margin: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+            width: 500px;
+            margin: auto;
+            
+        }
+        #page-heading{
+         text-align: center;
+         color: grey;
+         margin-top: 20px;
+
+        }
+        .details{
+            display: flex;
+            /* margin-top:4px ; */
+            text-align: center;
+           
+            justify-content: space-between;
+           width: 90%;
+            color: white;
+            font-weight: bold;
+            margin-left: 0;
+            padding: 1px;
+            /* box-shadow: rgb(0 0 0 / 14%) 0px 1px 10px; */
+        }
+        .contact{
+            background-color:darkorange;
+            margin-top: 2px;
+            display: flex;
+            /* display: flex; */
+
+        }
+        .delete-button{
+            width: 10%;
+            text-align: center;
+            padding-top: 15px;
+            /* align-items: center; */
+        }
+       .delete-button a{
+        color: white;
+        background-color: red;
+       }
+       li{
+        transition: 1s linear;
+       }
+        li:hover{
+            background-color: yellowgreen;
+            transform: scale(1.4);
+                     
+        }
+        ul{
+            margin: 0;
+            list-style-type: none;
+        
+        }
+         li .left{
+            padding-left: 7px;
+         }
+         li .right{
+            padding-right: 7px;
+         }
+
+            
+        
+        
+        form {
+            margin-left: 22px;
+            margin-top: 8px;
+            width: 500px;
+            text-align: center;
+           
+            /* margin: auto; */
+        }
+        form input{
+            /* margin: ; */
+            height: 25px;
+            background-color: transparent;
+            border: 0px solid;
+            width: 194px;
+            box-shadow: rgb(0 0 0 / 14%) 0px 1px 10px;
+            /* margin-left: 10px; */
+            outline: none;
+
+        }
+        form button{
+            color: white;
+            background-color: grey;
+            width: 55px;
+        }
