@@ -8,6 +8,7 @@ app.set('view engine','ejs');
 app.set('views',path.join(__dirname,'views'));
 app.use(express.urlencoded());
 app.use(express.static('assets'));
+
 //middle ware1
 // app.use(function(req,res,next){
 //     req.myname="himanshu"
